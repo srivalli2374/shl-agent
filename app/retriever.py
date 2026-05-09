@@ -2,7 +2,7 @@ import json
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-with open("data/full_catalog.json", "r", encoding="utf-8") as f:
+with open("data/shl_catalog.json", "r", encoding="utf-8") as f:
     catalog = json.load(f)
 
 documents = []
