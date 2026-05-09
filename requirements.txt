@@ -1,9 +1,6 @@
 fastapi
 uvicorn
-sentence-transformers
-faiss-cpu
 numpy
 pydantic
-torch
-transformers
-huggingface_hub
+scikit-learn
+pandas
