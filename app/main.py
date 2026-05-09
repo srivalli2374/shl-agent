@@ -206,7 +206,8 @@ def chat(request: ChatRequest):
 
         recommendations.append({
             "name": item["name"],
-            "url": item["url"]
+            "url": item["url"],
+            "test_type": item.get("test_type", "K")
         })
 
     # =========================
